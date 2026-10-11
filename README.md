@@ -27,3 +27,22 @@ npm run preview
 仓库 Settings → Pages → Build and deployment → Source 选择 GitHub Actions。推送到 main 后，`.github/workflows/pages.yml` 会构建并发布 `dist`。也可以在 Actions 中手动运行 Deploy website to GitHub Pages。部署成功后，Pages 设置页会显示正式网址。
 
 公开部署的是演示网站，不会同步不同用户的心愿；本地记录仅在各自浏览器中保存。
+
+## Superdesign 设计技能
+
+完整技能已安装在 `.agents/skills/superdesign/`，适用于支持项目级 `.agents/skills` 的 AI 编程助手（如 Codex）。这是给 AI 助手使用的设计流程，不是网站运行依赖；`npm run dev` 不会自动运行它。
+
+在项目目录启动你的 AI 编程助手后，可以要求：
+
+> 使用 superdesign 技能优化心愿之间的首页，保留互相送礼、个人心愿和共同清单的功能。
+
+Superdesign 在线画布需另外登录。在终端可使用按需 CLI，无需全局安装：
+
+```sh
+npx --yes @superdesign/cli@latest
+npx --yes @superdesign/cli@latest login
+```
+
+登录与生成由设计任务按技能流程执行；生成可能消耗 Superdesign 账户额度。首次设计前需分析现有代码，生成 `.superdesign/init/` 上下文。当前只安装技能，尚未登录或生成设计稿。
+
+Windows 用户：从 GitHub 下载最新 ZIP 并解压后，技能也在项目的 `.agents/skills/superdesign/` 内。已经下载的旧 ZIP 不会自动更新。请保留本地修改，再下载新版或仅复制新版 `.agents` 文件夹到现有项目。
