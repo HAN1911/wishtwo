@@ -13,13 +13,11 @@
         "style.css"
       ],
       "fingerprints": {
-        ".superdesign/design-system.md": "bfc50c6474ade4985f1b3531e6a23703f703759ccd04bc5abf25418f9428976d",
+        ".superdesign/design-system.md": "e11b0b93c2d4a3b5d1ed09a7c5eab3e6cb3765aee713089e65a2d5e7c479f980",
         "src.jsx": "f20e1b9a4346652b18368d1f78bef00d11277b7edbdeea218d90c73c1772905a",
         "style.css": "3e5297474a409d3bf70661656a5ed5480b9fed19dd8489f4fa6d9a243a5bcbf5"
       },
-      "referenceIds": [
-        "81387722-c92b-4e55-bd11-c272871d7c48"
-      ],
+      "referenceIds": [],
       "components": [
         {
           "name": "SpaceNavigation",
@@ -29,12 +27,12 @@
       ],
       "drafts": {
         "72920430-c304-48d0-b126-b3c4f01ce294": {
-          "title": "WishTwo - Optimized Homepage",
-          "visualDirection": "partner gift discovery first; larger typography; compact hero; responsive layout; original SVG imagery; truthful local-demo status",
-          "currentVersion": 4
+          "title": "WishTwo - Warm Notebook",
+          "visualDirection": "warm girlish illustrated notebook; cream paper, dusty rose, soft blue/sage/yellow, original animal gift vignette, preserved wishlist functions",
+          "currentVersion": 5
         }
       },
-      "updatedAt": "2026-10-11T13:21:24.663243+00:00"
+      "updatedAt": "2026-10-11T14:01:37.968474+00:00"
     }
   }
 }
